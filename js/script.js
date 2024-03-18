@@ -77,7 +77,6 @@ function handleClick(e) {
 
       const doneButtons = document.querySelectorAll(".done");
       if (doneButtons.length === 16) {
-        // Исправлено опечатку: lenght -> length
         document.querySelector(".congratulations").classList.add("active");
       }
 
